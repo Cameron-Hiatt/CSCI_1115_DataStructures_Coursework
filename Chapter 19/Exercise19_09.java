@@ -30,7 +30,7 @@ public class Exercise19_09 {
 	  //A counter controlled loop to allow non-nested for loops. With the need to remove items from the array list, 
 	  //I wanted to eliminate having a nested for loop change the size of the array list and affect the outer for loop
 	  //parameters. This way it allows me to find the minimum with one loop, then iterate through and remove that minimum item
-	  //from the list without affecting an outer loop that wouldn't had been finished before the inner loop ran again.
+	  //from the list without affecting an outer loop that wouldn't have been finished before the inner loop ran again.
 	  while(counter != size)
 	  {
 		  //this must be placed here before the last item in the list is removed, otherwise and ArrayIndexOutOfBounds error occurs
